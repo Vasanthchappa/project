@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f0f0;
+  }
+  
+  .weather-container {
+    background-color: #021116;
+    border-radius: 50px;
+    padding: 80px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .city {
+    font-size: 4em;
+    border-top: 20px;
+    margin-top: 10px;
+    text-decoration: solid;
+    color:#f0f0f0;
+  }
+  
+  .city-icon {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+  }
+  
+  .temperature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+    font-size: 3em;
+  }
+  
+  .temp-value {
+    margin-right: 5px;
+    color:#f0f0f0
+  }
+  
+  .temp-unit {
+    font-size: 0.8em;
+    color:#f0f0f0;
+  }
+  
+  .description {
+    font-size: 1em;
+    line-height: 1.5;
+    color:#f0f0f0;
+  }
+  .show{
+    cursor: pointer;
+  }
